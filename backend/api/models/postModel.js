@@ -23,4 +23,4 @@ var PostSchema = new Schema({
         required: "Please select a picture for your post"
     }
 });
-module.exports = mongoose.model('Post', PostSchema);
+module.exports = mongoose.model('Post', PostSchema); 
